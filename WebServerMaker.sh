@@ -20,14 +20,15 @@ error_reporting(E_ALL);\n
 require __DIR__ . '/vendor/autoload.php';
 require_once __DIR__ . '/vendor/composer/autoload_real.php';\n
 use Faker\Factory;
-use Acme\\Namespace\\className;
+use Acme\\Namespace\\osztalyNev;
 use Whoops\\Run;
 use Whoops\\Handler\\PrettyPageHandler;\n
 \$faker = Factory::create();
 \$whoops = new Run();
 \$whoops->pushHandler(new PrettyPageHandler());
 \$whoops->register();
-?>" >> index.php
+?>
+" >> index.php
 cd ../..
 touch composer.json
 truncate -s 0 composer.json
