@@ -44,6 +44,9 @@ echo '{
         }
     }
 }' >> composer.json
+cd webserver2024/www/
+mkdir -p src/Acme/Namespace
 mv composer.json webserver2024/www/
 mv composer.lock webserver2024/www/
 mv composer.phar webserver2024/www/
+
