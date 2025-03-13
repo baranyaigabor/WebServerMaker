@@ -9,11 +9,14 @@
 
 A böngészőben `localhost`-ra keresve találod a weboldalad!
 
+Indításhoz és leállításhoz is mindig legyél a Dockerfile mappájában,
+jelen esetben: ./webserver2024/docker/php 
 
 ## Leállítás
 
-Ha befejzet a coding session-t, állítsd le a Dockerfile-t,
+Ha befejzted a coding session-t, állítsd le a Dockerfile-t,
 különben a háttérben fölöslegesen futni fog.
+
 
   ```bash
   docker compose down
