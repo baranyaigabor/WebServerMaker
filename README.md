@@ -2,10 +2,8 @@
 
 ## Webserver elkészítés
 
-1. Hozd létre a projektmappádat
-2. Nyisd meg VS Code-ban
-3. Nyiss egy új terminált
-4. Másold be az egész bash scriptet
+1. Nyisd meg VS Code-ban a projektmappádat
+2. Terminálba másold be az egész bash scriptet
 
 - Böngészőben a `localhost`-ra keresve találod a weboldalad!
 
