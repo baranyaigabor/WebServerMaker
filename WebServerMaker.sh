@@ -11,6 +11,7 @@ php -r "unlink('composer-setup.php');"
 php composer.phar require fakerphp/faker
 php Composer.phar dump-autoload 
 php composer.phar require filp/whoops
+mv vendor webserver2024/www/
 cd webserver2024/www/
 touch index.php
 echo "<?php
