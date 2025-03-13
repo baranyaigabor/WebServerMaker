@@ -7,10 +7,10 @@
 3. Nyiss egy új terminált
 4. Másold be az egész bash scriptet
 
-- A böngészőben a `localhost`-ra keresve találod a weboldalad!
+- Böngészőben a `localhost`-ra keresve találod a weboldalad!
 
 - Indításhoz és leállításhoz is mindig legyél a Dockerfile mappájában,
-  jelen esetben: _./webserver2024/docker/php/_
+  jelen esetben: _./webserver2024/docker/php/_ .
 
 
 ## Leállítás
