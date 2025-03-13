@@ -1,4 +1,4 @@
-# NGiNX és PHP 8.3 webszerver docker alapokon
+# NGiNX és PHP 8.3 Webszerver Docker alapokon
 
 ## Webserver elkészítés
 
