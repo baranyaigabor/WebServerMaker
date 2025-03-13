@@ -7,16 +7,15 @@
 3. Nyiss egy új terminált
 4. Másold be az egész bash scriptet
 
-A böngészőben `localhost`-ra keresve találod a weboldalad!
+- A böngészőben a `localhost`-ra keresve találod a weboldalad!
 
-Indításhoz és leállításhoz is mindig legyél a Dockerfile mappájában,
-jelen esetben: ./webserver2024/docker/php 
+- Indításhoz és leállításhoz is mindig legyél a Dockerfile mappájában,
+  jelen esetben: ./webserver2024/docker/php/
+
 
 ## Leállítás
 
-Ha befejzted a coding session-t, állítsd le a Dockerfile-t,
-különben a háttérben fölöslegesen futni fog.
-
+  _Lépj bele a Dockerfile mappájába `cd /dir/names/`_
 
   ```bash
   docker compose down
@@ -26,7 +25,7 @@ különben a háttérben fölöslegesen futni fog.
 
 ## Indítás
 
-  Ha már 
+  _Lépj bele a Dockerfile mappájába `cd /dir/names/`_
 
   ```bash
   docker compose up -d
