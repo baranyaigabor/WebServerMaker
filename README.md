@@ -18,7 +18,7 @@
   ```bash
   docker compose down
   ```
-  - A `down` állítja le  és törli a konténereket
+  - A `down` állítja le  és törli a konténereket az adott mappában.
 
 
 ## Indítás
@@ -29,7 +29,7 @@
   docker compose up -d
   ```
 
-  - Az `up` indítja el a konténereket, ha még nem volt build, akkor a build is lefut.
+  - Az `up` indítja el a konténer(eke)t a Dockerfile(ok)ból, ha még nem volt build, akkor a build(ek) is lefut(nak).
 
-  - A `-d` hatására a háttérben indul, visszakapjuk a konzolt.
+  - A `-d` hatására a háttérben indul(nak), így visszakapjuk a konzolt.
     
