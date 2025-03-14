@@ -10,16 +10,12 @@
   ```
 
   - Böngészőben a `localhost`-ra keresve találod a weboldalad!
-
-  - A Dockerrel kapcsolatos programókat **a dockert tartalmazó mappában** hajtsd végre
-    jelen esetben: _./webserver2024/docker/php/_
-    *Lépj bele a Dockerfile mappájába `cd /dir/names/`*
-
+    
 
 ## Indítás
 
   ```bash
-  cd webserver2024/docker/php docker && compose up -d
+  cd webserver2024/docker/php && docker compose up -d
   ```
 
   - Az `up` indítja el a konténer(eke)t a Dockerfile(ok)ból, ha még nem volt build, akkor a build(ek) is lefut(nak).
@@ -42,7 +38,7 @@ Kilépni az `exit` paranccsal lehet.
 ## Leállítás
 
   ```bash
-  docker compose down
+  cd webserver2024/docker/php && docker compose down
   ```
   - A `down` állítja le  és törli a konténereket az adott mappában.
     
