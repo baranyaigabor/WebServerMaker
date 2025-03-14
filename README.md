@@ -3,7 +3,7 @@
 ## Webserver elkészítés
 
 1. Nyisd meg VS Code-ban a projektmappádat
-2. Terminálba másold be az alábbi bash scriptet
+2. Másold be a terminálba alábbi bash scriptet:
 
   ```bash
   curl -fsSL https://raw.githubusercontent.com/baranyaigabor/WebServerMaker/main/install.sh | sh
