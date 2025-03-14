@@ -128,7 +128,7 @@ if ! mkdir -p src/Acme/Namespace; then
 fi
 
 cd webserver2024/docker/php
-chmod -R 755 ../../../docker/php
+chmod -R 755 webserver2024/docker/php
 
 
 RETRIES=5
