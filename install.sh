@@ -127,8 +127,5 @@ if ! mkdir -p src/Acme/Namespace; then
     exit 1
 fi
 
-if ! docker compose exec app fish; then
-    echo "Failed to execute fish shell in Docker."
-    exit 1
-fi
+docker compose exec app fish
 
