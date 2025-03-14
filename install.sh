@@ -127,5 +127,13 @@ if ! mkdir -p src/Acme/Namespace; then
     exit 1
 fi
 
-docker compose exec app fish
-
+RETRIES=5
+while ! docker compose exec app fish; do
+  if [ $RETRIES -eq 0 ]; then
+    echo "Failed to execute fish shell in Docker."
+    exit 1
+  fi
+  echo "Retrying..."
+  RETRIES=$((RETRIES-1))
+  sleep 5
+done
