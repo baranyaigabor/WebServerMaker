@@ -19,7 +19,7 @@
 ## Indítás
 
   ```bash
-  docker compose up -d
+  cd webserver2024/docker/php docker && compose up -d
   ```
 
   - Az `up` indítja el a konténer(eke)t a Dockerfile(ok)ból, ha még nem volt build, akkor a build(ek) is lefut(nak).
