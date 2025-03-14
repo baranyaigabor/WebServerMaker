@@ -49,3 +49,4 @@ mv composer.lock webserver2024/www/
 mv composer.phar webserver2024/www/
 cd webserver2024/www/
 mkdir -p src/Acme/Namespace
+docker compose exec app fish
