@@ -127,11 +127,8 @@ if ! mkdir -p src/Acme/Namespace; then
     exit 1
 fi
 
-cd ../../../docker/php
-
-cd ../../../docker/php
-echo "Current directory: $(pwd)"
-ls -la
+cd ../../docker/php
+chmod -R 755 ../../../docker/php
 
 
 RETRIES=5
