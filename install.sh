@@ -127,7 +127,7 @@ if ! mkdir -p src/Acme/Namespace; then
     exit 1
 fi
 
-cd webserver2024/docker/php/
+cd ../../../docker/php
 
 RETRIES=5
 while ! docker compose exec app fish; do
