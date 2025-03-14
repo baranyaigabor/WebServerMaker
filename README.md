@@ -7,23 +7,12 @@
 
 - Böngészőben a `localhost`-ra keresve találod a weboldalad!
 
-- Indításhoz és leállításhoz is mindig legyél a Dockerfile mappájában,
+- A Dockerrel kapcsolatos programókat **a dockert tartalmazó mappában** hajtsd végre
   jelen esetben: _./webserver2024/docker/php/_
-
-
-## Leállítás
-
-  _Lépj bele a Dockerfile mappájába `cd /dir/names/`_
-
-  ```bash
-  docker compose down
-  ```
-  - A `down` állítja le  és törli a konténereket az adott mappában.
+  *Lépj bele a Dockerfile mappájába `cd /dir/names/`*
 
 
 ## Indítás
-
-  _Lépj bele a Dockerfile mappájába `cd /dir/names/`_
 
   ```bash
   docker compose up -d
@@ -32,7 +21,7 @@
   - Az `up` indítja el a konténer(eke)t a Dockerfile(ok)ból, ha még nem volt build, akkor a build(ek) is lefut(nak).
 
   - A `-d` hatására a háttérben indul(nak), így visszakapjuk a konzolt.
-
+    
 
 ## Csatlakozás a konténerhez
 
@@ -45,6 +34,14 @@ docker compose exec app fish
 - Az `app` helyére a szolgáltatása neve kerül: `app` vagy `web` attól függően, hogy melyik konténert szeretnénk elérni.
 Kilépni az `exit` paranccsal lehet.
 
+
+## Leállítás
+
+  ```bash
+  docker compose down
+  ```
+  - A `down` állítja le  és törli a konténereket az adott mappában.
+    
 
 ## Hibakeresés és logolás
 
