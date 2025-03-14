@@ -127,7 +127,7 @@ if ! mkdir -p src/Acme/Namespace; then
     exit 1
 fi
 
-cd ../../docker/php
+cd webserver2024/docker/php
 chmod -R 755 ../../../docker/php
 
 
