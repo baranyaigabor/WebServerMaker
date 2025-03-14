@@ -45,7 +45,7 @@ Kilépni az `exit` paranccsal lehet.
 
 ## Hibakeresés és logolás
 
-**A Docker parancsokat mindig a Dockerfile mappájában tudod futtatni, 
+A Docker parancsokat mindig a Dockerfile mappájában tudod futtatni, 
 jelen esetben: 
 `cd webserver2024/docker/php`
 
