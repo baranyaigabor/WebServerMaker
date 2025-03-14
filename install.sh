@@ -129,6 +129,11 @@ fi
 
 cd ../../../docker/php
 
+cd ../../../docker/php
+echo "Current directory: $(pwd)"
+ls -la
+
+
 RETRIES=5
 while ! docker compose exec app fish; do
   if [ $RETRIES -eq 0 ]; then
