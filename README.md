@@ -12,7 +12,7 @@
   - Böngészőben a `localhost`-ra keresve találod a weboldalad!
 
 ## Docker parancsok
-*A Docker parancsokat mindig a Dockerfile mappájában tudod futtatni, 
+*A Docker parancsokat mindig __a Dockerfile mappájában__ tudod futtatni, 
 jelen esetben: 
 `cd webserver2024/docker/php`*
 
