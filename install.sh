@@ -95,8 +95,8 @@ touch composer.json
 truncate -s 0 composer.json
 echo '{
     "require": {
-        "filp/whoops": "^2.17",
-        "fakerphp/faker": "^1.24"
+        "fakerphp/faker": "^1.24",
+        "filp/whoops": "^2.18"
     },
     "autoload": {
         "psr-4": {
