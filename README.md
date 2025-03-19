@@ -3,14 +3,15 @@
 ## Webserver elkészítés
 
 1. Nyisd meg VS Code-ban a projektmappádat
-2. Másold be a terminálba alábbi bash scriptet:
+2. Másold be a terminálba az alábbi bash scriptet:
 
   ```bash
   curl -fsSL https://raw.githubusercontent.com/baranyaigabor/WebServerMaker/main/install.sh | sh
   ```
 
   - Böngészőben a `localhost`-ra keresve találod a weboldalad!
-    
+
+#NOTE
 *A Docker parancsokat mindig a Dockerfile mappájában tudod futtatni, 
 jelen esetben: 
 `cd webserver2024/docker/php`*
