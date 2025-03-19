@@ -11,10 +11,11 @@
 
   - Böngészőben a `localhost`-ra keresve találod a weboldalad!
 
-#NOTE
+## Docker parancsok
 *A Docker parancsokat mindig a Dockerfile mappájában tudod futtatni, 
 jelen esetben: 
 `cd webserver2024/docker/php`*
+
 
 ## Indítás
 
